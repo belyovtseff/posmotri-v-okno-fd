@@ -42,6 +42,8 @@ ol {
 
 .content__list-container {
   position: relative;
+  height: 319px;
+  overflow-y: scroll;
 }
 
 .visually-hidden {
@@ -65,7 +67,6 @@ ol {
 
 .content__list {
   position: relative;
-  height: 229px;
   overflow: auto;
   margin-top: 26px;
   display: flex;
@@ -130,6 +131,11 @@ ol {
 
 .search-form__textfield:hover {
   text-decoration: none;
+}
+
+
+.search-form__textfield:active {
+  outline: 1px solid #fff;
 }
 
 .search-form__textfield::placeholder {
